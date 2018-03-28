@@ -1,0 +1,35 @@
+{
+  "name": "with-prefix",
+  "version": "0.0.1",
+  "description": "Ensures that a string starts with the given prefix, if it does not already.",
+  "homepage": "https://github.com/filipdanic/with-prefix",
+  "bugs": {
+    "url": "https://github.com/filipdanic/with-prefix/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:filipdanic/with-prefix.git"
+  },
+  "keywords": [
+    "prefix",
+    "strings",
+    "string utility",
+    "string helpers",
+    "lightweight",
+    "one-liners"
+  ],
+  "author": {
+    "name": "Filip Danić",
+    "email": "filipdanic7@gmail.com",
+    "url": "http://danicfilip.com"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
